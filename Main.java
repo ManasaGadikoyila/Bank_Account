@@ -50,12 +50,12 @@ public class Main {
         ArrayList<ATM> list = new ArrayList<ATM>();
 
         LOOP: while (true) {
-            System.out.println("-------BANK-------" + "\n" + "Choose..." + "\n" + "1...SignIn" + "\n" + "2...LogIn"
+            System.out.println("-------BANK-------" + "\n" + "Choose..." + "\n" + "1...SignUp" + "\n" + "2...LogIn"
                     + "\n" + "3...Exit");
             int choice = in.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("-----SignIn-----");
+                    System.out.println("-----SignUp-----");
                     System.out.println("Enter your name : ");
                     in.nextLine();
                     String name = in.nextLine();
